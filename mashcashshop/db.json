@@ -1,0 +1,34 @@
+{
+    "items": [
+        {
+            "id": 0,
+            "name": "Mashed Potatoes",
+            "price": 100,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet porta velit, quis interdum purus. Nullam at pellentesque justo. Proin pharetra sapien ut eros vehicula, non commodo orci molestie. Donec euismod eget orci at tristique. Nulla mollis enim eget est egestas dignissim. Pellentesque non nisl placerat est venenatis suscipit."
+        },
+        {
+            "id": 1,
+            "name": "Mash Browns",
+            "price": 500,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet porta velit, quis interdum purus. Nullam at pellentesque justo. Proin pharetra sapien ut eros vehicula, non commodo orci molestie. Donec euismod eget orci at tristique. Nulla mollis enim eget est egestas dignissim. Pellentesque non nisl placerat est venenatis suscipit."
+        },
+        {
+            "id": 2,
+            "name": "Super Mash Bros",
+            "price": 1000,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet porta velit, quis interdum purus. Nullam at pellentesque justo. Proin pharetra sapien ut eros vehicula, non commodo orci molestie. Donec euismod eget orci at tristique. Nulla mollis enim eget est egestas dignissim. Pellentesque non nisl placerat est venenatis suscipit."
+        },
+        {
+            "id": 3,
+            "name": "Mash Royale",
+            "price": 2000,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet porta velit, quis interdum purus. Nullam at pellentesque justo. Proin pharetra sapien ut eros vehicula, non commodo orci molestie. Donec euismod eget orci at tristique. Nulla mollis enim eget est egestas dignissim. Pellentesque non nisl placerat est venenatis suscipit."
+        },
+        {
+            "id": 4,
+            "name": "Flag",
+            "price": 99999999,
+            "description": "mctf{m45hburn_sh0uld_b3_c4r3ful_0f_id0r_d12fd993}"
+        }
+    ]
+}
