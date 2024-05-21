@@ -18,13 +18,15 @@
         {% for item in items %}
         <section>
             <!-- id: {{item["id"]}} -->
-            <aside><img src="/static/images/{{item['id']}}.jpg" /></aside>
+            <aside><img src="/static/images/{{item['id']}}.jpg"/></aside>
             
             {% if item['name'] != 'Flag' %}
             <a href="/item?id={{item['id']}}"><h3>{{item['name']}}</h3></a>
             {% else %}
             <a><h3>{{item['name']}}</h3></a>
             {% endif %}
+
+            <br><br><br><br>
             
             <p><b>{{item['price']}} Mashcash</b></p>
         </section>
