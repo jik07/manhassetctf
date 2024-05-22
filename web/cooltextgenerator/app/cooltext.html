@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Acme&family=Bungee+Spice&family=Dancing+Script:wght@400..700&family=Jacquard+24&family=Jersey+15&family=Luckiest+Guy&family=Pacifico&family=Seymour+One&family=Shadows+Into+Light&family=Yarndings+20&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <title>Cool Text Generator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    </head>
+
+    <body onload="setText()">
+        <h1 style="text-align: center;">Cool Text Generator</h1>
+        <br>
+        <p id="cooltext" style="font-size:5em; text-align:center;"></p>
+
+        <script>
+            function setText() {
+                var ct = document.getElementById("cooltext");
+                var searchParams = new URLSearchParams(window.location.search);
+                ct.innerHTML = searchParams.get("text");
+                ct.classList.add(searchParams.get("font"));
+            }
+        </script>
+    </body>
+</html>
