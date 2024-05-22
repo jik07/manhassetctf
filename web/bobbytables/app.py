@@ -8,8 +8,9 @@ flag = open("flag.txt").read()
 
 db = sqlite3.connect(":memory:", check_same_thread=False)
 db.execute(f"CREATE TABLE users (username TEXT, password TEXT)")
-#db.execute(f"INSERT INTO users VALUES ('bobbytables', '{os.urandom(16).hex()}')")
-#db.execute(f"INSERT INTO users VALUES ('rmashburn', 'password123')")
+db.execute(f"INSERT INTO users VALUES ('bobbytables', '{os.urandom(16).hex()}')")
+db.execute(f"INSERT INTO users VALUES ('rmashburn', 'password123')")
+db.execute(f"INSERT INTO users VALUES ('admin', 'admin')")
 
 @app.route("/")
 def home():
@@ -22,7 +23,7 @@ def home():
     <img src="https://imgs.xkcd.com/comics/exploits_of_a_mom.png"/>
 """
 
-    if session["username"] == "jonnytables":
+    if session["username"] == "bobbytables":
         response += f"<p>{flag}</p>"
 
     return response
